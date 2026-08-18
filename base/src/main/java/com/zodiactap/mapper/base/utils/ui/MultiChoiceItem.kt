@@ -1,3 +1,0 @@
-package com.zodiactap.mapper.base.utils.ui
-
-data class MultiChoiceItem<out ID>(val id: ID, val label: String, val isChecked: Boolean = false)

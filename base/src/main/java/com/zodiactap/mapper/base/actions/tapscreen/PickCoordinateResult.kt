@@ -1,6 +1,0 @@
-package com.zodiactap.mapper.base.actions.tapscreen
-
-import kotlinx.serialization.Serializable
-
-@Serializable
-data class PickCoordinateResult(val x: Int, val y: Int, val description: String)

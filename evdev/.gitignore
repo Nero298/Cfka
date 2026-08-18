@@ -1,5 +1,0 @@
-/build
-.cxx
-/src/main/cpp/libevdev/event-names.h
-/src/main/cpp/aidl/*
-/src/main/rust/**/target/

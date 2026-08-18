@@ -1,1 +1,0 @@
-Most of the code in this crate is taken from https://github.com/ndesh26/evdev-rs.

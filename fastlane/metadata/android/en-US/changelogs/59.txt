@@ -1,3 +1,0 @@
-Bug fixes and make a couple things in the app less confusing.
-
-See the changelog at http://changelog.keymapper.club for more details.

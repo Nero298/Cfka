@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name" translatable="false">ZodiacTap Debug</string>
-    <string name="ime_service_label" translatable="false">ZodiacTap Debug Input Method</string>
-</resources>

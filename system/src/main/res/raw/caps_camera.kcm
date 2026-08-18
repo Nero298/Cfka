@@ -1,3 +1,0 @@
-type OVERLAY
-
-map key 58 CAMERA   # remap CAPS_LOCK to a key that Key Mapper can consume
