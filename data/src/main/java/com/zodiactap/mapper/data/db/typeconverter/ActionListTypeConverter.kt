@@ -1,0 +1,19 @@
+package com.zodiactap.mapper.data.db.typeconverter
+
+import androidx.room.TypeConverter
+import com.github.salomonbrys.kotson.fromJson
+import com.github.salomonbrys.kotson.registerTypeAdapter
+import com.google.gson.GsonBuilder
+import com.zodiactap.mapper.data.entities.ActionEntity
+
+class ActionListTypeConverter {
+    private val gson = GsonBuilder().registerTypeAdapter(ActionEntity.DESERIALIZER).create()
+
+    @TypeConverter
+    fun toActionList(json: String): List<ActionEntity?> {
+        return gson.fromJson<MutableList<ActionEntity?>>(json)
+    }
+
+    @TypeConverter
+    fun toJsonString(actionList: List<ActionEntity?>): String = gson.toJson(actionList)!!
+}
