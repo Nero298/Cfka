@@ -1,0 +1,5 @@
+package com.zodiactap.mapper.base.utils.ui
+
+import android.graphics.drawable.Drawable
+
+data class IconInfo(val drawable: Drawable, val tintType: TintType = TintType.None)
